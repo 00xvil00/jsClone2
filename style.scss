@@ -1,0 +1,123 @@
+@mixin toAll() {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    body{
+        @include toAll;
+        margin: 0 30px;
+        position: relative;
+        .sg{
+			position: absolute;	
+            .sgp{
+                position: absolute;	
+                fill: none;
+                stroke: black;
+                stroke-width: .1px;
+                display: none; 
+            }
+        }
+        #template{
+            padding: 20px 40px;
+            position: relative;
+            #formM{
+                width: 50%;
+                position: relative;
+            }
+            input{
+                padding: 3px;
+                font-size: 14px;
+            }
+            #rmbtn{
+                display: none;
+            }
+        }
+        .added0{
+            margin-top: 20px;
+            padding: 20px 40px;
+            position: relative;
+            #formM{
+                width: 50%;
+                position: relative;
+            }
+            input{
+                padding: 3px;
+                font-size: 14px;
+            }
+            #rmbtn{
+                padding: 0 20px;
+                margin-top: 10px;
+                background-color: rgb(255, 255, 0);
+                border: none;
+                font-size: 15px;
+                color: rgb(78, 0, 0);
+                font-weight: 800;
+            }
+        }
+        .added1{
+            margin-top: 20px;
+            padding: 20px 40px;
+            position: relative;
+            #formM{
+                width: 50%;
+                position: relative;
+            }
+            input{
+                padding: 3px;
+                font-size: 14px;
+            }
+            #rmbtn{
+                padding: 0 20px;
+                margin-top: 10px;
+                background-color: rgb(255, 255, 0);
+                border: none;
+                font-size: 15px;
+                color: rgb(78, 0, 0);
+                font-weight: 800;
+            }
+        }
+        .added2{
+            margin-top: 20px;
+            padding: 20px 40px;
+            position: relative;
+            #formM{
+                width: 50%;
+                position: relative;
+            }
+            input{
+                padding: 3px;
+                font-size: 14px;
+            }
+            #rmbtn{
+                padding: 0 20px;
+                margin-top: 10px;
+                background-color: rgb(255, 255, 0);
+                border: none;
+                font-size: 15px;
+                color: rgb(78, 0, 0);
+                font-weight: 800;
+            }
+        }
+        #fn{
+            margin-bottom: 80px;
+            #btn{
+                padding: 0 20px;
+                margin: 10px 30px;
+                background-color: rgb(255, 255, 0);
+                font-size: 15px;
+                color: rgb(78, 0, 0);
+                font-weight: 800;
+            }
+        }
+        button{
+            position: relative;
+        }
+    }
+}
+

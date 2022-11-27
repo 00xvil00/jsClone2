@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* body {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 30px;
+  position: relative;
+}
+* body .sg {
+  position: absolute;
+}
+* body .sg .sgp {
+  position: absolute;
+  fill: none;
+  stroke: black;
+  stroke-width: 0.1px;
+  display: none;
+}
+* body #template {
+  padding: 20px 40px;
+  position: relative;
+}
+* body #template #formM {
+  width: 50%;
+  position: relative;
+}
+* body #template input {
+  padding: 3px;
+  font-size: 14px;
+}
+* body #template #rmbtn {
+  display: none;
+}
+* body .added0 {
+  margin-top: 20px;
+  padding: 20px 40px;
+  position: relative;
+}
+* body .added0 #formM {
+  width: 50%;
+  position: relative;
+}
+* body .added0 input {
+  padding: 3px;
+  font-size: 14px;
+}
+* body .added0 #rmbtn {
+  padding: 0 20px;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 0);
+  border: none;
+  font-size: 15px;
+  color: rgb(78, 0, 0);
+  font-weight: 800;
+}
+* body .added1 {
+  margin-top: 20px;
+  padding: 20px 40px;
+  position: relative;
+}
+* body .added1 #formM {
+  width: 50%;
+  position: relative;
+}
+* body .added1 input {
+  padding: 3px;
+  font-size: 14px;
+}
+* body .added1 #rmbtn {
+  padding: 0 20px;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 0);
+  border: none;
+  font-size: 15px;
+  color: rgb(78, 0, 0);
+  font-weight: 800;
+}
+* body .added2 {
+  margin-top: 20px;
+  padding: 20px 40px;
+  position: relative;
+}
+* body .added2 #formM {
+  width: 50%;
+  position: relative;
+}
+* body .added2 input {
+  padding: 3px;
+  font-size: 14px;
+}
+* body .added2 #rmbtn {
+  padding: 0 20px;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 0);
+  border: none;
+  font-size: 15px;
+  color: rgb(78, 0, 0);
+  font-weight: 800;
+}
+* body #fn {
+  margin-bottom: 80px;
+}
+* body #fn #btn {
+  padding: 0 20px;
+  margin: 10px 30px;
+  background-color: rgb(255, 255, 0);
+  font-size: 15px;
+  color: rgb(78, 0, 0);
+  font-weight: 800;
+}
+* body button {
+  position: relative;
+}/*# sourceMappingURL=style.css.map */
